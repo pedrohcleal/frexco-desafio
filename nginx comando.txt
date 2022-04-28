@@ -1,0 +1,9 @@
+docker container run --name ws1 -p 8080:80 nginx
+
+--name ws1 -> define o nome do conteiner como ws1
+nginx -> nome da imagem usada
+
+-p  -> mapeia a porta 80 do container para porta 8080 do host
+
+-d -> executa o contêiner em modo detached, ou seja, executa o container em segundo plano e libera o terminal
+
